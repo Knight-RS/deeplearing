@@ -1,3 +1,9 @@
+‘’‘
+训练神经网络的基本步骤：
+1.定义神经网络的结构和前向传播的输出结果
+2.定义损失函数以及选择反向传播优化的算法 
+3.生成会话并期望在训练数据上反复进行反向传播优化算法
+‘’‘
 import tensorflow as tf
 import numpy as np
 from numpy.random import RandomState
